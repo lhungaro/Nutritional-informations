@@ -1,0 +1,21 @@
+
+
+<!-- <div>
+  {{alimentos[0].calorias}}
+</div>
+<div *ngFor="let alimento of alimentos">
+    <p>{{alimento.nome}}</p>
+    <p>{{alimento.descricaonutricional}}</p>
+</div> -->
+
+
+<div class="card" *ngFor="let alimento of alimentos">
+  <div class="image">
+
+  </div>
+  <div class="informations">
+    <p>alimento : {{alimento.nome}}</p>
+    <p> calorias :{{alimento.calorias}}</p>
+    <p>colesterol : {{alimento.colesterol}}</p>
+  </div>
+</div>

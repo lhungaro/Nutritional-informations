@@ -1,0 +1,20 @@
+.card{
+  display:flex;
+  width:50%;
+  height : 10rem;
+  background-color:white;
+  border-radius:0.25rem;
+  box-shadow: 0.5px 0px 10px 0.5px rgba(0, 0, 0, 0.2);
+  margin:2rem;
+  padding: 0.25rem
+}
+
+.image{
+  background-color:black;
+  width:12rem;
+}
+
+.informations{
+  padding: 1rem
+
+}
